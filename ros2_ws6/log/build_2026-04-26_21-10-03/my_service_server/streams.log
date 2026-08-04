@@ -1,0 +1,24 @@
+[1.239s] Invoking command in '/home/thundersen48/ros2_ws6/src/my_service_server': AMENT_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thundersen48/ros2_ws6/build/my_service_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages:/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_server build --build-base /home/thundersen48/ros2_ws6/build/my_service_server/build install --record /home/thundersen48/ros2_ws6/build/my_service_server/install.log --single-version-externally-managed install_data
+[1.627s] running egg_info
+[1.661s] writing ../../build/my_service_server/my_service_server.egg-info/PKG-INFO
+[1.662s] writing dependency_links to ../../build/my_service_server/my_service_server.egg-info/dependency_links.txt
+[1.662s] writing entry points to ../../build/my_service_server/my_service_server.egg-info/entry_points.txt
+[1.662s] writing requirements to ../../build/my_service_server/my_service_server.egg-info/requires.txt
+[1.663s] writing top-level names to ../../build/my_service_server/my_service_server.egg-info/top_level.txt
+[1.727s] reading manifest file '../../build/my_service_server/my_service_server.egg-info/SOURCES.txt'
+[1.728s] writing manifest file '../../build/my_service_server/my_service_server.egg-info/SOURCES.txt'
+[1.728s] running build
+[1.728s] running build_py
+[1.729s] copying my_service_server/server_node.py -> /home/thundersen48/ros2_ws6/build/my_service_server/build/lib/my_service_server
+[1.729s] running install
+[1.740s] running install_lib
+[1.770s] copying /home/thundersen48/ros2_ws6/build/my_service_server/build/lib/my_service_server/server_node.py -> /home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages/my_service_server
+[1.771s] byte-compiling /home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages/my_service_server/server_node.py to server_node.cpython-312.pyc
+[1.772s] running install_data
+[1.773s] running install_egg_info
+[1.805s] removing '/home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages/my_service_server-0.0.0-py3.12.egg-info' (and everything under it)
+[1.805s] Copying ../../build/my_service_server/my_service_server.egg-info to /home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages/my_service_server-0.0.0-py3.12.egg-info
+[1.806s] running install_scripts
+[2.001s] Installing velocity_server script to /home/thundersen48/ros2_ws6/install/my_service_server/lib/my_service_server
+[2.002s] writing list of installed files to '/home/thundersen48/ros2_ws6/build/my_service_server/install.log'
+[2.068s] Invoked command in '/home/thundersen48/ros2_ws6/src/my_service_server' returned '0': AMENT_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thundersen48/ros2_ws6/build/my_service_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages:/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_server build --build-base /home/thundersen48/ros2_ws6/build/my_service_server/build install --record /home/thundersen48/ros2_ws6/build/my_service_server/install.log --single-version-externally-managed install_data

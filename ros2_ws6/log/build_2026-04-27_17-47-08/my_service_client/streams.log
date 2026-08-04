@@ -1,0 +1,21 @@
+[1.169s] Invoking command in '/home/thundersen48/ros2_ws6/src/my_service_client': AMENT_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thundersen48/ros2_ws6/build/my_service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thundersen48/ros2_ws6/install/my_service_client/lib/python3.12/site-packages:/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_client build --build-base /home/thundersen48/ros2_ws6/build/my_service_client/build install --record /home/thundersen48/ros2_ws6/build/my_service_client/install.log --single-version-externally-managed install_data
+[1.540s] running egg_info
+[1.574s] writing ../../build/my_service_client/my_service_client.egg-info/PKG-INFO
+[1.574s] writing dependency_links to ../../build/my_service_client/my_service_client.egg-info/dependency_links.txt
+[1.574s] writing entry points to ../../build/my_service_client/my_service_client.egg-info/entry_points.txt
+[1.575s] writing requirements to ../../build/my_service_client/my_service_client.egg-info/requires.txt
+[1.575s] writing top-level names to ../../build/my_service_client/my_service_client.egg-info/top_level.txt
+[1.636s] reading manifest file '../../build/my_service_client/my_service_client.egg-info/SOURCES.txt'
+[1.637s] writing manifest file '../../build/my_service_client/my_service_client.egg-info/SOURCES.txt'
+[1.637s] running build
+[1.637s] running build_py
+[1.637s] running install
+[1.648s] running install_lib
+[1.680s] running install_data
+[1.681s] running install_egg_info
+[1.711s] removing '/home/thundersen48/ros2_ws6/install/my_service_client/lib/python3.12/site-packages/my_service_client-0.0.0-py3.12.egg-info' (and everything under it)
+[1.712s] Copying ../../build/my_service_client/my_service_client.egg-info to /home/thundersen48/ros2_ws6/install/my_service_client/lib/python3.12/site-packages/my_service_client-0.0.0-py3.12.egg-info
+[1.713s] running install_scripts
+[1.895s] Installing velocity_client script to /home/thundersen48/ros2_ws6/install/my_service_client/lib/my_service_client
+[1.896s] writing list of installed files to '/home/thundersen48/ros2_ws6/build/my_service_client/install.log'
+[1.957s] Invoked command in '/home/thundersen48/ros2_ws6/src/my_service_client' returned '0': AMENT_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thundersen48/ros2_ws6/build/my_service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thundersen48/ros2_ws6/install/my_service_client/lib/python3.12/site-packages:/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_client build --build-base /home/thundersen48/ros2_ws6/build/my_service_client/build install --record /home/thundersen48/ros2_ws6/build/my_service_client/install.log --single-version-externally-managed install_data

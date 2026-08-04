@@ -1,0 +1,332 @@
+[0.000000] (-) TimerEvent: {}
+[0.002035] (my_service_interfaces) JobQueued: {'identifier': 'my_service_interfaces', 'dependencies': OrderedDict()}
+[0.002140] (my_service_interfaces) JobStarted: {'identifier': 'my_service_interfaces'}
+[0.020379] (my_service_interfaces) JobProgress: {'identifier': 'my_service_interfaces', 'progress': 'cmake'}
+[0.022655] (my_service_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/thundersen48/ros2_ws6/src/my_service_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/thundersen48/ros2_ws6/install/my_service_interfaces'], 'cwd': '/home/thundersen48/ros2_ws6/build/my_service_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thundersen48', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thundersen48', 'OLDPWD': '/home/thundersen48/ros2_ws6/src/my_service_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1779', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thundersen48', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thundersen48', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/thundersen48/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/thundersen48/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/1:@/tmp/.ICE-unix/1742,unix/1:/tmp/.ICE-unix/1742', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4c37f5d2_c59d_4358_a9c1_3a6cbddc82dc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QA1FO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thundersen48/ros2_ws6/build/my_service_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.048733] (my_service_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.100047] (-) TimerEvent: {}
+[0.204826] (-) TimerEvent: {}
+[0.305295] (-) TimerEvent: {}
+[0.418297] (-) TimerEvent: {}
+[0.455872] (my_service_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.459761] (my_service_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.518849] (-) TimerEvent: {}
+[0.571313] (my_service_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.630282] (-) TimerEvent: {}
+[0.637304] (my_service_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.731915] (-) TimerEvent: {}
+[0.832765] (-) TimerEvent: {}
+[0.936508] (-) TimerEvent: {}
+[1.037159] (-) TimerEvent: {}
+[1.138205] (-) TimerEvent: {}
+[1.279759] (-) TimerEvent: {}
+[1.402091] (-) TimerEvent: {}
+[1.505506] (-) TimerEvent: {}
+[1.606519] (-) TimerEvent: {}
+[1.707235] (-) TimerEvent: {}
+[1.808768] (-) TimerEvent: {}
+[1.909216] (-) TimerEvent: {}
+[2.050532] (-) TimerEvent: {}
+[2.137266] (my_service_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.151989] (-) TimerEvent: {}
+[2.265761] (-) TimerEvent: {}
+[2.366312] (-) TimerEvent: {}
+[2.466914] (-) TimerEvent: {}
+[2.570977] (-) TimerEvent: {}
+[2.672823] (-) TimerEvent: {}
+[2.773822] (-) TimerEvent: {}
+[2.883827] (-) TimerEvent: {}
+[2.984293] (-) TimerEvent: {}
+[3.085123] (-) TimerEvent: {}
+[3.185912] (-) TimerEvent: {}
+[3.212520] (my_service_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.305909] (-) TimerEvent: {}
+[3.406509] (-) TimerEvent: {}
+[3.511389] (-) TimerEvent: {}
+[3.611774] (-) TimerEvent: {}
+[3.712139] (-) TimerEvent: {}
+[3.812497] (-) TimerEvent: {}
+[3.915791] (-) TimerEvent: {}
+[4.020640] (-) TimerEvent: {}
+[4.121169] (-) TimerEvent: {}
+[4.221715] (-) TimerEvent: {}
+[4.307093] (my_service_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.322343] (-) TimerEvent: {}
+[4.324978] (my_service_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.422763] (-) TimerEvent: {}
+[4.535875] (-) TimerEvent: {}
+[4.587958] (my_service_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.637470] (-) TimerEvent: {}
+[4.738170] (-) TimerEvent: {}
+[4.839724] (-) TimerEvent: {}
+[4.940270] (-) TimerEvent: {}
+[5.042259] (-) TimerEvent: {}
+[5.143844] (-) TimerEvent: {}
+[5.245210] (-) TimerEvent: {}
+[5.347213] (-) TimerEvent: {}
+[5.448674] (-) TimerEvent: {}
+[5.549343] (-) TimerEvent: {}
+[5.654349] (-) TimerEvent: {}
+[5.746984] (my_service_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.754762] (-) TimerEvent: {}
+[5.842527] (my_service_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.876571] (-) TimerEvent: {}
+[5.928891] (my_service_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.932798] (my_service_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.940608] (my_service_interfaces) StdoutLine: {'line': b'-- Configuring done (5.9s)\n'}
+[5.978399] (-) TimerEvent: {}
+[6.007956] (my_service_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.030641] (my_service_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/thundersen48/ros2_ws6/build/my_service_interfaces\n'}
+[6.042673] (my_service_interfaces) CommandEnded: {'returncode': 0}
+[6.043633] (my_service_interfaces) JobProgress: {'identifier': 'my_service_interfaces', 'progress': 'build'}
+[6.044925] (my_service_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thundersen48/ros2_ws6/build/my_service_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/thundersen48/ros2_ws6/build/my_service_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thundersen48', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thundersen48', 'OLDPWD': '/home/thundersen48/ros2_ws6/src/my_service_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1779', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thundersen48', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thundersen48', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/thundersen48/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/thundersen48/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/1:@/tmp/.ICE-unix/1742,unix/1:/tmp/.ICE-unix/1742', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4c37f5d2_c59d_4358_a9c1_3a6cbddc82dc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QA1FO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thundersen48/ros2_ws6/build/my_service_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.079449] (-) TimerEvent: {}
+[6.125317] (my_service_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.148015] (my_service_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_my_service_interfaces\n'}
+[6.179701] (-) TimerEvent: {}
+[6.571738] (my_service_interfaces) StdoutLine: {'line': b'[  2%] Built target my_service_interfaces__rosidl_generator_type_description\n'}
+[6.572035] (-) TimerEvent: {}
+[6.588000] (my_service_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.602919] (my_service_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.624368] (my_service_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.626063] (my_service_interfaces) StdoutLine: {'line': b'creating my_service_interfaces.egg-info\n'}
+[6.672703] (-) TimerEvent: {}
+[6.677311] (my_service_interfaces) StdoutLine: {'line': b'writing my_service_interfaces.egg-info/PKG-INFO\n'}
+[6.678043] (my_service_interfaces) StdoutLine: {'line': b'writing dependency_links to my_service_interfaces.egg-info/dependency_links.txt\n'}
+[6.680072] (my_service_interfaces) StdoutLine: {'line': b'writing top-level names to my_service_interfaces.egg-info/top_level.txt\n'}
+[6.680307] (my_service_interfaces) StdoutLine: {'line': b"writing manifest file 'my_service_interfaces.egg-info/SOURCES.txt'\n"}
+[6.776748] (-) TimerEvent: {}
+[6.832357] (my_service_interfaces) StdoutLine: {'line': b"reading manifest file 'my_service_interfaces.egg-info/SOURCES.txt'\n"}
+[6.833357] (my_service_interfaces) StdoutLine: {'line': b"writing manifest file 'my_service_interfaces.egg-info/SOURCES.txt'\n"}
+[6.901548] (my_service_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_my_service_interfaces_egg\n'}
+[6.902004] (-) TimerEvent: {}
+[7.159886] (-) TimerEvent: {}
+[7.252072] (my_service_interfaces) StdoutLine: {'line': b'[  8%] Built target my_service_interfaces__cpp\n'}
+[7.260305] (-) TimerEvent: {}
+[7.320082] (my_service_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_service_interfaces/srv/detail/set_velocity__functions.c.o\x1b[0m\n'}
+[7.320357] (my_service_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_service_interfaces/srv/detail/set_velocity__description.c.o\x1b[0m\n'}
+[7.320505] (my_service_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_service_interfaces/srv/detail/set_velocity__type_support.c.o\x1b[0m\n'}
+[7.366330] (-) TimerEvent: {}
+[7.466693] (-) TimerEvent: {}
+[7.477001] (my_service_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_service_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.548522] (my_service_interfaces) StdoutLine: {'line': b'[ 20%] Built target my_service_interfaces__rosidl_generator_c\n'}
+[7.564731] (my_service_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.565010] (my_service_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.565141] (my_service_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.565289] (my_service_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.567095] (-) TimerEvent: {}
+[7.668054] (-) TimerEvent: {}
+[7.773046] (-) TimerEvent: {}
+[7.873517] (-) TimerEvent: {}
+[7.974070] (-) TimerEvent: {}
+[8.074859] (-) TimerEvent: {}
+[8.123213] (my_service_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_service_interfaces/srv/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[8.174943] (-) TimerEvent: {}
+[8.189717] (my_service_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_service_interfaces/srv/detail/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[8.275445] (-) TimerEvent: {}
+[8.288865] (my_service_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_service_interfaces/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[8.347051] (my_service_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_service_interfaces/srv/detail/set_velocity__type_support_c.cpp.o\x1b[0m\n'}
+[8.375927] (-) TimerEvent: {}
+[8.477022] (-) TimerEvent: {}
+[8.577480] (-) TimerEvent: {}
+[8.679264] (-) TimerEvent: {}
+[8.779791] (-) TimerEvent: {}
+[8.887882] (-) TimerEvent: {}
+[8.893256] (my_service_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.940093] (my_service_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.988100] (-) TimerEvent: {}
+[9.088549] (-) TimerEvent: {}
+[9.113363] (my_service_interfaces) StdoutLine: {'line': b'[ 50%] Built target my_service_interfaces__rosidl_typesupport_cpp\n'}
+[9.128854] (my_service_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.144170] (my_service_interfaces) StdoutLine: {'line': b'[ 52%] Built target my_service_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.157142] (my_service_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.189009] (-) TimerEvent: {}
+[9.223055] (my_service_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.289211] (-) TimerEvent: {}
+[9.389745] (-) TimerEvent: {}
+[9.429521] (my_service_interfaces) StdoutLine: {'line': b'[ 58%] Built target my_service_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.430081] (my_service_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.490070] (-) TimerEvent: {}
+[9.590883] (-) TimerEvent: {}
+[9.624367] (my_service_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_service_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.691081] (-) TimerEvent: {}
+[9.701271] (my_service_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_service_interfaces/srv/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[9.764979] (my_service_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_interfaces/srv/detail/set_velocity__type_support.c.o\x1b[0m\n'}
+[9.779904] (my_service_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.791527] (-) TimerEvent: {}
+[9.843671] (my_service_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking C shared library libmy_service_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.849506] (my_service_interfaces) StdoutLine: {'line': b'[ 73%] Built target my_service_interfaces__rosidl_typesupport_c\n'}
+[9.891817] (-) TimerEvent: {}
+[9.904192] (my_service_interfaces) StdoutLine: {'line': b'[ 73%] Built target my_service_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.944603] (my_service_interfaces) StdoutLine: {'line': b'[ 73%] Built target my_service_interfaces\n'}
+[9.992073] (-) TimerEvent: {}
+[9.993872] (my_service_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.094326] (-) TimerEvent: {}
+[10.446363] (-) TimerEvent: {}
+[10.772201] (-) TimerEvent: {}
+[10.874444] (-) TimerEvent: {}
+[10.901249] (my_service_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_service_interfaces__py\n'}
+[10.928846] (my_service_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_service_interfaces/srv/_set_velocity_s.c.o\x1b[0m\n'}
+[10.974729] (-) TimerEvent: {}
+[11.075096] (-) TimerEvent: {}
+[11.197922] (my_service_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libmy_service_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.198372] (-) TimerEvent: {}
+[11.262866] (my_service_interfaces) StdoutLine: {'line': b'[ 82%] Built target my_service_interfaces__rosidl_generator_py\n'}
+[11.298658] (-) TimerEvent: {}
+[11.303783] (my_service_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.304047] (my_service_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.304143] (my_service_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.400268] (-) TimerEvent: {}
+[11.433874] (my_service_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.436149] (my_service_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.441299] (my_service_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.470982] (my_service_interfaces) StdoutLine: {'line': b'[100%] Built target my_service_interfaces_s__rosidl_typesupport_c\n'}
+[11.473983] (my_service_interfaces) StdoutLine: {'line': b'[100%] Built target my_service_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[11.481636] (my_service_interfaces) StdoutLine: {'line': b'[100%] Built target my_service_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[11.495083] (my_service_interfaces) CommandEnded: {'returncode': 0}
+[11.496474] (my_service_interfaces) JobProgress: {'identifier': 'my_service_interfaces', 'progress': 'install'}
+[11.500557] (-) TimerEvent: {}
+[11.507911] (my_service_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thundersen48/ros2_ws6/build/my_service_interfaces'], 'cwd': '/home/thundersen48/ros2_ws6/build/my_service_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thundersen48', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thundersen48', 'OLDPWD': '/home/thundersen48/ros2_ws6/src/my_service_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1779', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thundersen48', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thundersen48', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/thundersen48/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/thundersen48/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/1:@/tmp/.ICE-unix/1742,unix/1:/tmp/.ICE-unix/1742', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4c37f5d2_c59d_4358_a9c1_3a6cbddc82dc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QA1FO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thundersen48/ros2_ws6/build/my_service_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.538337] (my_service_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.538823] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_service_interfaces\n'}
+[11.538948] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/srv/SetVelocity.json\n'}
+[11.539054] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[11.539152] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg\n'}
+[11.539354] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.539477] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[11.539583] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[11.539669] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.h\n'}
+[11.539752] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__struct.h\n'}
+[11.539835] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__functions.c\n'}
+[11.539916] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.c\n'}
+[11.540068] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__functions.h\n'}
+[11.540156] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__description.c\n'}
+[11.540238] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/set_velocity.h\n'}
+[11.540319] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/environment/library_path.sh\n'}
+[11.540401] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/environment/library_path.dsv\n'}
+[11.540501] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_generator_c.so\n'}
+[11.540585] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_generator_c.so" to ""\n'}
+[11.540672] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[11.540754] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg\n'}
+[11.540835] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.540917] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[11.541012] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[11.541097] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_fastrtps_c.h\n'}
+[11.541179] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.541261] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.541349] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[11.541431] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg\n'}
+[11.541528] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.541615] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[11.541696] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[11.541778] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.c\n'}
+[11.541859] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_introspection_c.h\n'}
+[11.541941] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.542050] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.542136] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_c.so\n'}
+[11.542218] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[11.542300] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[11.542382] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg\n'}
+[11.542464] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.542562] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[11.542654] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/set_velocity.hpp\n'}
+[11.542735] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[11.542822] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__builder.hpp\n'}
+[11.542905] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.hpp\n'}
+[11.542991] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__traits.hpp\n'}
+[11.543089] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__struct.hpp\n'}
+[11.543207] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[11.543289] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg\n'}
+[11.543371] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.543453] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[11.543534] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[11.543637] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.543724] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/dds_fastrtps\n'}
+[11.543806] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.543888] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.543970] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[11.544051] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[11.544148] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[11.544240] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.544323] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.cpp\n'}
+[11.544412] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.544495] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.544576] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.544678] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[11.544766] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/environment/pythonpath.sh\n'}
+[11.544848] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/environment/pythonpath.dsv\n'}
+[11.544929] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces-0.0.0-py3.12.egg-info\n'}
+[11.545011] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[11.545097] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[11.545180] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[11.545283] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[11.545365] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces\n'}
+[11.545447] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/__init__.py\n'}
+[11.545528] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.545610] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.545692] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.545802] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[11.545884] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[11.545966] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv\n'}
+[11.546048] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv/__init__.py\n'}
+[11.546129] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv/_set_velocity.py\n'}
+[11.546210] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv/_set_velocity_s.c\n'}
+[11.546350] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.so\n'}
+[11.580665] (my_service_interfaces) StdoutLine: {'line': b"Listing '/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces'...\n"}
+[11.581019] (my_service_interfaces) StdoutLine: {'line': b"Compiling '/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/__init__.py'...\n"}
+[11.581247] (my_service_interfaces) StdoutLine: {'line': b"Listing '/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv'...\n"}
+[11.581430] (my_service_interfaces) StdoutLine: {'line': b"Compiling '/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv/__init__.py'...\n"}
+[11.581640] (my_service_interfaces) StdoutLine: {'line': b"Compiling '/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv/_set_velocity.py'...\n"}
+[11.591371] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.591883] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.592377] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[11.592856] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.593174] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.so\n'}
+[11.593404] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[11.593766] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_generator_py.so\n'}
+[11.594015] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_generator_py.so" to ""\n'}
+[11.594201] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/srv/SetVelocity.idl\n'}
+[11.594303] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/srv/SetVelocity.srv\n'}
+[11.594480] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/ament_index/resource_index/package_run_dependencies/my_service_interfaces\n'}
+[11.594605] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/ament_index/resource_index/parent_prefix_path/my_service_interfaces\n'}
+[11.594749] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/environment/ament_prefix_path.sh\n'}
+[11.594852] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.594975] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/environment/path.sh\n'}
+[11.595076] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/environment/path.dsv\n'}
+[11.595178] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/local_setup.bash\n'}
+[11.595327] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/local_setup.sh\n'}
+[11.595447] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/local_setup.zsh\n'}
+[11.595683] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/local_setup.dsv\n'}
+[11.595787] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/package.dsv\n'}
+[11.595890] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/ament_index/resource_index/packages/my_service_interfaces\n'}
+[11.596075] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.596160] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.596234] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.596310] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.596409] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.596524] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.596688] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.596792] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.596925] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.597048] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.597154] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.597289] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.597394] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.597720] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.597830] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.597913] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_pyExport.cmake\n'}
+[11.598060] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.598145] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.598236] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.598300] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.598408] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.598522] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.598735] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.598871] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.599006] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfacesConfig.cmake\n'}
+[11.599118] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfacesConfig-version.cmake\n'}
+[11.599225] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/thundersen48/ros2_ws6/install/my_service_interfaces/share/my_service_interfaces/package.xml\n'}
+[11.601624] (my_service_interfaces) CommandEnded: {'returncode': 0}
+[11.602108] (-) TimerEvent: {}
+[11.632841] (my_service_interfaces) JobEnded: {'identifier': 'my_service_interfaces', 'rc': 0}
+[11.634237] (-) EventReactorShutdown: {}

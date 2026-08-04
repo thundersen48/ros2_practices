@@ -1,0 +1,37 @@
+[3.209s] Invoking command in '/home/thundersen48/ros2_ws4/src/listener': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thundersen48/ros2_ws4/build/listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thundersen48/ros2_ws4/install/listener/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/listener build --build-base /home/thundersen48/ros2_ws4/build/listener/build install --record /home/thundersen48/ros2_ws4/build/listener/install.log --single-version-externally-managed install_data
+[3.853s] running egg_info
+[3.853s] creating ../../build/listener/listener.egg-info
+[3.909s] writing ../../build/listener/listener.egg-info/PKG-INFO
+[3.910s] writing dependency_links to ../../build/listener/listener.egg-info/dependency_links.txt
+[3.911s] writing entry points to ../../build/listener/listener.egg-info/entry_points.txt
+[3.911s] writing requirements to ../../build/listener/listener.egg-info/requires.txt
+[3.912s] writing top-level names to ../../build/listener/listener.egg-info/top_level.txt
+[3.912s] writing manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+[4.024s] reading manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+[4.027s] writing manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+[4.029s] running build
+[4.030s] running build_py
+[4.030s] creating /home/thundersen48/ros2_ws4/build/listener/build
+[4.030s] creating /home/thundersen48/ros2_ws4/build/listener/build/lib
+[4.031s] creating /home/thundersen48/ros2_ws4/build/listener/build/lib/listener
+[4.031s] copying listener/__init__.py -> /home/thundersen48/ros2_ws4/build/listener/build/lib/listener
+[4.031s] copying listener/listener_node.py -> /home/thundersen48/ros2_ws4/build/listener/build/lib/listener
+[4.032s] running install
+[4.050s] running install_lib
+[4.103s] creating /home/thundersen48/ros2_ws4/install/listener/lib/python3.12/site-packages/listener
+[4.104s] copying /home/thundersen48/ros2_ws4/build/listener/build/lib/listener/__init__.py -> /home/thundersen48/ros2_ws4/install/listener/lib/python3.12/site-packages/listener
+[4.104s] copying /home/thundersen48/ros2_ws4/build/listener/build/lib/listener/listener_node.py -> /home/thundersen48/ros2_ws4/install/listener/lib/python3.12/site-packages/listener
+[4.104s] byte-compiling /home/thundersen48/ros2_ws4/install/listener/lib/python3.12/site-packages/listener/__init__.py to __init__.cpython-312.pyc
+[4.105s] byte-compiling /home/thundersen48/ros2_ws4/install/listener/lib/python3.12/site-packages/listener/listener_node.py to listener_node.cpython-312.pyc
+[4.106s] running install_data
+[4.106s] creating /home/thundersen48/ros2_ws4/install/listener/share/ament_index
+[4.106s] creating /home/thundersen48/ros2_ws4/install/listener/share/ament_index/resource_index
+[4.107s] creating /home/thundersen48/ros2_ws4/install/listener/share/ament_index/resource_index/packages
+[4.107s] copying resource/listener -> /home/thundersen48/ros2_ws4/install/listener/share/ament_index/resource_index/packages
+[4.107s] copying package.xml -> /home/thundersen48/ros2_ws4/install/listener/share/listener
+[4.107s] running install_egg_info
+[4.163s] Copying ../../build/listener/listener.egg-info to /home/thundersen48/ros2_ws4/install/listener/lib/python3.12/site-packages/listener-0.0.0-py3.12.egg-info
+[4.164s] running install_scripts
+[4.488s] Installing listener script to /home/thundersen48/ros2_ws4/install/listener/lib/listener
+[4.489s] writing list of installed files to '/home/thundersen48/ros2_ws4/build/listener/install.log'
+[4.583s] Invoked command in '/home/thundersen48/ros2_ws4/src/listener' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thundersen48/ros2_ws4/build/listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thundersen48/ros2_ws4/install/listener/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/listener build --build-base /home/thundersen48/ros2_ws4/build/listener/build install --record /home/thundersen48/ros2_ws4/build/listener/install.log --single-version-externally-managed install_data

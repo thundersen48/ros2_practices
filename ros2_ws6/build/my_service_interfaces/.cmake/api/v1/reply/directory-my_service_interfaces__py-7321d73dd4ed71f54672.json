@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_service_interfaces__py",
+		"source" : "/home/thundersen48/ros2_ws6/build/my_service_interfaces/my_service_interfaces__py"
+	}
+}

@@ -1,0 +1,25 @@
+[1.642s] Invoking command in '/home/thundersen48/ros2_ws6/src/my_service_server': AMENT_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thundersen48/ros2_ws6/build/my_service_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages:/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_server build --build-base /home/thundersen48/ros2_ws6/build/my_service_server/build install --record /home/thundersen48/ros2_ws6/build/my_service_server/install.log --single-version-externally-managed install_data
+[2.093s] running egg_info
+[2.129s] writing ../../build/my_service_server/my_service_server.egg-info/PKG-INFO
+[2.133s] writing dependency_links to ../../build/my_service_server/my_service_server.egg-info/dependency_links.txt
+[2.134s] writing entry points to ../../build/my_service_server/my_service_server.egg-info/entry_points.txt
+[2.134s] writing requirements to ../../build/my_service_server/my_service_server.egg-info/requires.txt
+[2.134s] writing top-level names to ../../build/my_service_server/my_service_server.egg-info/top_level.txt
+[2.207s] reading manifest file '../../build/my_service_server/my_service_server.egg-info/SOURCES.txt'
+[2.211s] writing manifest file '../../build/my_service_server/my_service_server.egg-info/SOURCES.txt'
+[2.211s] running build
+[2.211s] running build_py
+[2.212s] copying my_service_server/server_node.py -> /home/thundersen48/ros2_ws6/build/my_service_server/build/lib/my_service_server
+[2.213s] running install
+[2.226s] running install_lib
+[2.263s] copying /home/thundersen48/ros2_ws6/build/my_service_server/build/lib/my_service_server/server_node.py -> /home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages/my_service_server
+[2.265s] byte-compiling /home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages/my_service_server/server_node.py to server_node.cpython-312.pyc
+[2.267s] running install_data
+[2.267s] copying package.xml -> /home/thundersen48/ros2_ws6/install/my_service_server/share/my_service_server
+[2.267s] running install_egg_info
+[2.304s] removing '/home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages/my_service_server-0.0.0-py3.12.egg-info' (and everything under it)
+[2.304s] Copying ../../build/my_service_server/my_service_server.egg-info to /home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages/my_service_server-0.0.0-py3.12.egg-info
+[2.305s] running install_scripts
+[2.514s] Installing velocity_server script to /home/thundersen48/ros2_ws6/install/my_service_server/lib/my_service_server
+[2.514s] writing list of installed files to '/home/thundersen48/ros2_ws6/build/my_service_server/install.log'
+[2.641s] Invoked command in '/home/thundersen48/ros2_ws6/src/my_service_server' returned '0': AMENT_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thundersen48/ros2_ws6/build/my_service_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thundersen48/ros2_ws6/install/my_service_server/lib/python3.12/site-packages:/home/thundersen48/ros2_ws6/install/my_service_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_server build --build-base /home/thundersen48/ros2_ws6/build/my_service_server/build install --record /home/thundersen48/ros2_ws6/build/my_service_server/install.log --single-version-externally-managed install_data

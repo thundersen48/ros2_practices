@@ -1,0 +1,29 @@
+[0.035s] Invoking command in '/home/thundersen48/ros2_ws6/build/my_service_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thundersen48/ros2_ws6/src/my_service_interfaces -DCMAKE_INSTALL_PREFIX=/home/thundersen48/ros2_ws6/install/my_service_interfaces
+[0.207s] -- The C compiler identification is GNU 13.3.0
+[0.360s] -- The CXX compiler identification is GNU 13.3.0
+[0.397s] -- Detecting C compiler ABI info
+[0.538s] -- Detecting C compiler ABI info - done
+[0.561s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.563s] -- Detecting C compile features
+[0.564s] -- Detecting C compile features - done
+[0.583s] -- Detecting CXX compiler ABI info
+[0.746s] -- Detecting CXX compiler ABI info - done
+[0.772s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.772s] -- Detecting CXX compile features
+[0.773s] -- Detecting CXX compile features - done
+[0.803s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.113s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.399s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.424s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.647s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.839s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.657s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[2.657s]   Packages installing interfaces must include
+[2.657s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[2.657s]   package.xml
+[2.658s] Call Stack (most recent call first):
+[2.658s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[2.658s] 
+[2.658s] [0m
+[2.658s] -- Configuring incomplete, errors occurred!
+[2.670s] Invoked command in '/home/thundersen48/ros2_ws6/build/my_service_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thundersen48/ros2_ws6/src/my_service_interfaces -DCMAKE_INSTALL_PREFIX=/home/thundersen48/ros2_ws6/install/my_service_interfaces

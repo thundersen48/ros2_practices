@@ -1,0 +1,24 @@
+[2.555s] Invoking command in '/home/thundersen48/ros2_ws4/src/talker': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thundersen48/ros2_ws4/build/talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thundersen48/ros2_ws4/install/talker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker build --build-base /home/thundersen48/ros2_ws4/build/talker/build install --record /home/thundersen48/ros2_ws4/build/talker/install.log --single-version-externally-managed install_data
+[3.213s] running egg_info
+[3.271s] writing ../../build/talker/talker.egg-info/PKG-INFO
+[3.272s] writing dependency_links to ../../build/talker/talker.egg-info/dependency_links.txt
+[3.272s] writing entry points to ../../build/talker/talker.egg-info/entry_points.txt
+[3.272s] writing requirements to ../../build/talker/talker.egg-info/requires.txt
+[3.272s] writing top-level names to ../../build/talker/talker.egg-info/top_level.txt
+[3.380s] reading manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[3.381s] writing manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[3.381s] running build
+[3.382s] running build_py
+[3.382s] copying talker/talker_node.py -> /home/thundersen48/ros2_ws4/build/talker/build/lib/talker
+[3.382s] running install
+[3.400s] running install_lib
+[3.455s] copying /home/thundersen48/ros2_ws4/build/talker/build/lib/talker/talker_node.py -> /home/thundersen48/ros2_ws4/install/talker/lib/python3.12/site-packages/talker
+[3.456s] byte-compiling /home/thundersen48/ros2_ws4/install/talker/lib/python3.12/site-packages/talker/talker_node.py to talker_node.cpython-312.pyc
+[3.457s] running install_data
+[3.457s] running install_egg_info
+[3.511s] removing '/home/thundersen48/ros2_ws4/install/talker/lib/python3.12/site-packages/talker-0.0.0-py3.12.egg-info' (and everything under it)
+[3.512s] Copying ../../build/talker/talker.egg-info to /home/thundersen48/ros2_ws4/install/talker/lib/python3.12/site-packages/talker-0.0.0-py3.12.egg-info
+[3.513s] running install_scripts
+[3.832s] Installing talker script to /home/thundersen48/ros2_ws4/install/talker/lib/talker
+[3.832s] writing list of installed files to '/home/thundersen48/ros2_ws4/build/talker/install.log'
+[3.926s] Invoked command in '/home/thundersen48/ros2_ws4/src/talker' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thundersen48/ros2_ws4/build/talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thundersen48/ros2_ws4/install/talker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker build --build-base /home/thundersen48/ros2_ws4/build/talker/build install --record /home/thundersen48/ros2_ws4/build/talker/install.log --single-version-externally-managed install_data
