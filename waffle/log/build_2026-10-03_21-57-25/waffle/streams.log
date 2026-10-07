@@ -1,0 +1,6 @@
+[0.011s] Invoking command in '/home/thundersen48/projects/waffle/build/waffle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thundersen48/projects/waffle/build/waffle -- -j16 -l16
+[0.054s] [0mCMake Error: The current CMakeCache.txt directory /home/thundersen48/projects/waffle/build/waffle/CMakeCache.txt is different than the directory /home/thundersen48/Projects/waffle/build/waffle where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.067s] [0mCMake Error: The source directory "/home/thundersen48/Projects/waffle/waffle" does not exist.
+[0.067s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.070s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.071s] Invoked command in '/home/thundersen48/projects/waffle/build/waffle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thundersen48/projects/waffle/build/waffle -- -j16 -l16

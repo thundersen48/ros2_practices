@@ -1,0 +1,4 @@
+source;share/waffle/local_setup.bash
+source;share/waffle/local_setup.dsv
+source;share/waffle/local_setup.sh
+source;share/waffle/local_setup.zsh

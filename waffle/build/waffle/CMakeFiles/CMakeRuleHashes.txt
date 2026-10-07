@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+92a9ed01bb11f9164a44c0896d5614b4 CMakeFiles/waffle_uninstall

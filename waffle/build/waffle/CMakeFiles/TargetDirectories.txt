@@ -1,0 +1,9 @@
+/home/thundersen48/Projects/waffle/build/waffle/CMakeFiles/uninstall.dir
+/home/thundersen48/Projects/waffle/build/waffle/CMakeFiles/waffle_uninstall.dir
+/home/thundersen48/Projects/waffle/build/waffle/CMakeFiles/test.dir
+/home/thundersen48/Projects/waffle/build/waffle/CMakeFiles/edit_cache.dir
+/home/thundersen48/Projects/waffle/build/waffle/CMakeFiles/rebuild_cache.dir
+/home/thundersen48/Projects/waffle/build/waffle/CMakeFiles/list_install_components.dir
+/home/thundersen48/Projects/waffle/build/waffle/CMakeFiles/install.dir
+/home/thundersen48/Projects/waffle/build/waffle/CMakeFiles/install/local.dir
+/home/thundersen48/Projects/waffle/build/waffle/CMakeFiles/install/strip.dir
